@@ -114,10 +114,9 @@ source $ZSH/oh-my-zsh.sh
 alias setproxy="export ALL_PROXY=socks5://127.0.0.1:7890;export http_proxy=http://127.0.0.1:7890;export https_proxy=http://127.0.0.1:7890"
 alias unsetproxy="unset ALL_PROXY;unset http_proxy;unset https_proxy"
 
-# Homebrew: python
-export PATH="$(brew --prefix)/opt/python@3/libexec/bin:$PATH"
+# Homebrew: python@3.11
+export PATH="$(brew --prefix)/opt/python@3.11/libexec/bin:$PATH"
 alias python="python3"
-alias pip="pip3"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
